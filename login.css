@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+/* left side of the page content starts */
+.container .page-left {
+    width: 42rem;
+    height: 100vh;
+    /* float: left; */
+    background: linear-gradient(to bottom, #0d52a7 5%, #4181d0 100%);
+}
+
+.container .page-left .page-left-content {
+    color: white;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.page-left-content-p1 {
+    font-size: 32px;
+    font-weight: 300;
+    font-family: 'poppins';
+    line-height: 36px;
+}
+
+.page-left-content-p1 span {
+    font-weight: 600;
+
+}
+
+.page-left-content img {
+    width: 450px;
+    height: 400px;
+}
+
+.page-left-content .page-left-content-p2 {
+    font-size: 24px;
+    font-weight: 300;
+    font-family: 'poppins';
+    line-height: 36px;
+    margin-top: -10px;
+}
+
+/* left side of the page content ends */
+
+
+
+
+/* right side of the page content starts */
+.container .page-right {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 9rem;
+}
+
+.container .page-right-content {
+    background-color: white;
+}
+
+.page-right .page-right-content .vybog-img-div img {
+    width: 157px;
+    height: 41px;
+    margin-left: 7rem;
+    padding-top: -20px;
+}
+
+/* .page-right .page-right-content .vybog-img-div {
+    width: 157px;
+    height: 41px;
+    margin-left: 4rem;
+} */
+
+.page-right .page-right-content .page-right-content-p1 {
+    font-family: 'Poppins';
+    font-Weight: 500;
+    font-size: 16px;
+    Line-height: 24px;
+    color: #0D52A7;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.page-right .page-right-content .form {
+    margin-top: 1rem;
+}
+
+.page-right .page-right-content label {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.page-right .page-right-content input {
+    border: 1px solid #ACACAC;
+    width: 392px;
+    height: 40px;
+    border-radius: 3px;
+    padding-left: 15px;
+}
+
+
+.page-right .page-right-content .submit {
+    background-color: #0D52A7;
+    width: 392px;
+    height: 45px;
+    border-radius: 8px;
+    padding: 12px, 162px, 12px, 162px;
+    gap: 8px;
+    color: white;
+    margin-top: 3rem;
+}
+
+.container .page-right .trouble-l a {
+    /* padding-top: 20px; */
+    text-align: center;
+    position: relative;
+    left: 9rem;
+    margin-top: -10px;
+    text-decoration: none;
+    color: #ACACAC;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'poppins';
+    line-height: 21px;
+}
+
+.container .page-right .page-right-content-p2 {
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+.page-right .page-right-content .forget-p a {
+    display: block;
+    text-align: end;
+    margin-top: -10px;
+    text-decoration: none;
+    color: #ACACAC;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'poppins';
+    line-height: 21px;
+}
+
+.page-right .page-right-content .page-right-content-p2 {
+    font-size: 14px;
+    line-height: 21px;
+    font-family: 'poppins';
+}
+
+.page-right .page-right-content .page-right-content-p2 span {
+    color: #0D52A7;
+}
+
+/* right side of the page content ends */
